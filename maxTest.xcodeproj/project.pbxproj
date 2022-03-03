@@ -14,6 +14,7 @@
 		B2D5D47E27D145950039419C /* maxTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D5D47D27D145950039419C /* maxTestTests.swift */; };
 		B2D5D48827D145950039419C /* maxTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D5D48727D145950039419C /* maxTestUITests.swift */; };
 		B2D5D48A27D145950039419C /* maxTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D5D48927D145950039419C /* maxTestUITestsLaunchTests.swift */; };
+		B2D5D49927D146930039419C /* WebRTC.js in Resources */ = {isa = PBXBuildFile; fileRef = B2D5D49827D146930039419C /* WebRTC.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		B2D5D48327D145950039419C /* maxTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maxTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2D5D48727D145950039419C /* maxTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxTestUITests.swift; sourceTree = "<group>"; };
 		B2D5D48927D145950039419C /* maxTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maxTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B2D5D49827D146930039419C /* WebRTC.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = WebRTC.js; sourceTree = "<group>"; };
+		B2D5D49A27D14A330039419C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 				B2D5D46E27D145940039419C /* ContentView.swift */,
 				B2D5D47027D145950039419C /* Assets.xcassets */,
 				B2D5D47227D145950039419C /* Preview Content */,
+				B2D5D49827D146930039419C /* WebRTC.js */,
+				B2D5D49A27D14A330039419C /* Info.plist */,
 			);
 			path = maxTest;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D5D49927D146930039419C /* WebRTC.js in Resources */,
 				B2D5D47427D145950039419C /* Preview Assets.xcassets in Resources */,
 				B2D5D47127D145950039419C /* Assets.xcassets in Resources */,
 			);
@@ -420,7 +426,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"maxTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/reouvenmimoun/Desktop/Dev/Max/maxTest/maxTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -448,7 +455,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"maxTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = /Users/reouvenmimoun/Desktop/Dev/Max/maxTest/maxTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
