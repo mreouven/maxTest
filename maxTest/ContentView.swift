@@ -26,7 +26,7 @@ struct ContentView_Previews: PreviewProvider {
 struct SAWebView: View {
     
     var body: some View {
-        Webview(url: URL(string: "https://www.max.co.il/scav")!)
+        Webview(url: URL(string: "https://www.max-stg.co.il/saving/personal")!)
     }
 }
 
